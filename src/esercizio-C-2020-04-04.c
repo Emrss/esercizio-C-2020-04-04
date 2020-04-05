@@ -13,6 +13,8 @@
 
 double media_lunghezza;
 unsigned int n_riga;
+
+
 int main(int argc, char ** argv){
 	char c;
 	unsigned long l=0;
@@ -32,6 +34,6 @@ int main(int argc, char ** argv){
 
 	}
   printf("\n");
-	printf("\t\tMEDIA_FINALE %.1f\n", media_lunghezza);
-	return EXIT_SUCCESS;
+  printf("\t\t\tMEDIA_FINALE: %.1f\n", media_lunghezza);
+  return EXIT_SUCCESS;
 }

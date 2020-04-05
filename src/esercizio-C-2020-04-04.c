@@ -32,6 +32,6 @@ int main(int argc, char ** argv){
 
 	}
   printf("\n");
-	printf("\t\tMEDIA_FINALE %f\n", media_lunghezza);
+	printf("\t\tMEDIA_FINALE %.1f\n", media_lunghezza);
 	return EXIT_SUCCESS;
 }
